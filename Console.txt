@@ -1,0 +1,58 @@
+[Log] [HMR] Waiting for update signal from WDS... (0.chunk.js, line 40369)
+[Warning] src/App.js (0.chunk.js, line 5674)
+  Line 5:7:   'items' is assigned a value but never used                              no-unused-vars
+  Line 20:1:  Assign arrow function to a variable before exporting as module default  import/no-anonymous-default-export
+
+src/components/Search.js
+  Line 6:12:  'results' is assigned a value but never used  no-unused-vars
+[Log] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object]Array (10) (main.chunk.js, line 180)
+[Log] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object]Array (10) (main.chunk.js, line 180)
+[Log] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object]Array (10) (main.chunk.js, line 180)
+[Log] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object]Array (10) (main.chunk.js, line 180)
+[Log] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object]Array (10) (main.chunk.js, line 180)
+[Warning] src/App.js (0.chunk.js, line 5674)
+  Line 5:7:   'items' is assigned a value but never used                              no-unused-vars
+  Line 20:1:  Assign arrow function to a variable before exporting as module default  import/no-anonymous-default-export
+
+src/components/Search.js
+  Line 31:11:  'renderedResults' is assigned a value but never used              no-unused-vars
+  Line 31:50:  Array.prototype.map() expects a return value from arrow function  array-callback-return
+[Warning] src/App.js (0.chunk.js, line 5674, x2)
+  Line 5:7:   'items' is assigned a value but never used                              no-unused-vars
+  Line 20:1:  Assign arrow function to a variable before exporting as module default  import/no-anonymous-default-export
+
+src/components/Search.js
+  Line 31:11:  'renderedResults' is assigned a value but never used  no-unused-vars
+[Warning] src/App.js (0.chunk.js, line 5674)
+  Line 5:7:   'items' is assigned a value but never used                              no-unused-vars
+  Line 20:1:  Assign arrow function to a variable before exporting as module default  import/no-anonymous-default-export
+[Error] Warning: Each child in a list should have a unique "key" prop.
+
+Check the render method of `Search`. See https://reactjs.org/link/warning-keys for more information.
+div
+Search@http://localhost:3000/main.ac9943147de2dadc9b97.hot-update.js:32:81
+div
+	printWarning (0.chunk.js:34717)
+	error (0.chunk.js:34693)
+	validateExplicitKey (0.chunk.js:35568)
+	validateChildKeys (0.chunk.js:35594)
+	jsxWithValidation (0.chunk.js:35761)
+	Search (main.ac9943147de2dadc9b97.hot-update.js:111:102)
+	renderWithHooks (0.chunk.js:20789)
+	updateFunctionComponent (0.chunk.js:23111)
+	beginWork$1 (0.chunk.js:29566)
+	performUnitOfWork (0.chunk.js:28426)
+	workLoopSync (0.chunk.js:28363)
+	renderRootSync (0.chunk.js:28329)
+	performSyncWorkOnRoot (0.chunk.js:27946)
+	performSyncWorkOnRoot
+	(anonymous function) (0.chunk.js:17199)
+	unstable_runWithPriority (0.chunk.js:39126)
+	flushSyncCallbackQueueImpl (0.chunk.js:17194)
+	flushSyncCallbackQueue (0.chunk.js:17182)
+	flushSync (0.chunk.js:28121)
+	scheduleRefresh (0.chunk.js:30051)
+	(anonymous function) (0.chunk.js:34191)
+	forEach
+	performReactRefresh (0.chunk.js:34180)
+	(anonymous function) (0.chunk.js:122)
